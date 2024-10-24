@@ -32,7 +32,7 @@ pos = {
 }
 
 # 创建一个大的白色背景图像
-img = Image.new('RGB', (800, 600), color='white')
+img = Image.new('RGB', (1000, 750), color='white')
 draw = ImageDraw.Draw(img)
 
 # 尝试加载系统默认字体
